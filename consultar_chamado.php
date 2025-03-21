@@ -6,7 +6,7 @@ require_once "validador_acesso.php";
 //chamados
 $chamados = array();
 //abrir arquivo .hd
-$arquivo = fopen('../../app_help_desk/arquivo.hd', 'r');
+$arquivo = fopen('../ProtectedFiles/arquivo.hd', 'r');
 
 //recuperar registros enquanto houver registros
 while(!feof($arquivo)){

@@ -1,7 +1,7 @@
 <?php
 session_start();
 //abrir arquivo / a = abrir para a escrita
-$arquivo = fopen('../../app_help_desk/arquivo.hd','a');
+$arquivo = fopen('../ProtectedFiles/arquivo.hd','a');
 //montagem do texto
 $titulo = str_replace('#', '-', $_POST['titulo']);
 $categoria = str_replace('#', '-', $_POST['categoria']);
